@@ -1,0 +1,58 @@
+/// 4 liniar coefficients (500 samples)
+📈 Results Summary:
+  Total test cases: 1000
+  Successful runs: 1000
+  Exact matches (±$0.01): 0 (0%)
+  Close matches (±$1.00): 3 (.3%)
+  Average error: $176.22
+  Maximum error: $1078.96
+
+🎯 Your Score: 17722.00 (lower is better)
+---
+
+/// 4 liniar coefficients (1000 samples)
+📈 Results Summary:
+  Total test cases: 1000
+  Successful runs: 1000
+  Exact matches (±$0.01): 0 (0%)
+  Close matches (±$1.00): 1 (.1%)
+  Average error: $175.49
+  Maximum error: $1064.47
+
+🎯 Your Score: 17649.00 (lower is better)
+---
+
+/// A*days + B*miles + C*receipts + D*days*miles + E*days*receipts + F*miles*receipts + G*days^2 + H*miles^2 + I*receipts^2 + J*days*miles*receipts 
+📈 Results Summary:
+  Total test cases: 1000
+  Successful runs: 1000
+  Exact matches (±$0.01): 0 (0%)
+  Close matches (±$1.00): 5 (.5%)
+  Average error: $108.84
+  Maximum error: $1136.54
+
+🎯 Your Score: 10984.00 (lower is better)
+---
+
+// 4 degree polynomial 
+📈 Results Summary:
+  Total test cases: 1000
+  Successful runs: 1000
+  Exact matches (±$0.01): 0 (0%)
+  Close matches (±$1.00): 6 (.6%)
+  Average error: $85.97
+  Maximum error: $1174.05
+
+🎯 Your Score: 8697.00 (lower is better)
+---
+
+// Gradient Boosted Trees
+📈 Results Summary:
+  Total test cases: 1000
+  Successful runs: 1000
+  Exact matches (±$0.01): 0 (0%)
+  Close matches (±$1.00): 15 (1.5%)
+  Average error: $50.52
+  Maximum error: $1026.72
+
+🎯 Your Score: 5152.00 (lower is better)
