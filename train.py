@@ -38,11 +38,11 @@ def train_model(X_train, y_train):
     params = {
         'objective': 'reg:squarederror',
         'learning_rate': 0.01,  # Reduced from 0.1 to prevent overfitting
-        'max_depth': 100,         # Slightly increased to allow more complex patterns
+        'max_depth': 300,         # Slightly increased to allow more complex patterns
         'min_child_weight': 3,  # Increased to prevent overfitting on small groups
         'subsample': 0.8,       # Kept the same for good balance
         'colsample_bytree': 1, # We have only 3 features, so we can afford to use all of them
-        'n_estimators': 1000,   # Increased from 100 to 1000
+        'n_estimators': 10000,   # Increased from 100 to 1000
         'random_state': 69,
     }
     
